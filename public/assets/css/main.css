@@ -1,0 +1,28 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+.navbar-brand {
+  color: #2c3e50;
+}
+.navbar .nav-item .nav-link {
+  color: #2c3e50;
+}
+
+nav .router-link-exact-active {
+  font-weight: bold;
+  color: #42b983 !important;
+}
+
+/* Button */
+.btn-modif,
+.badge-modif {
+  background-color: #42b983;
+  color: white;
+}
+.btn-modif:hover {
+  background-color: #359469;
+  color: white;
+}
